@@ -26,11 +26,26 @@ $ cd launchdarkly
 
 # Install the React SDK
 $ npm install launchdarkly-react-client-sdk
+```
 
+## Using Feature Flags
 
+# clientSideID
+Ensure clientSideID within the App.js file matches with your clientSideID within your LaunchDarkly dashboard
 
+# form flag
+1. Create a new feature flag call "form"
+2. Select the option "SDKs using Client-side ID" 
+3. Select Boolean for Flag variations 
+4. Save flag
 
-
+# prodCode flag
+1. Create a new feature flag call "prodCode"
+2. Select the option "SDKs using Client-side ID" 
+3. Select Boolean for Flag variations 
+4. Save flag
+5. Set the following target users who match this rule: If email contains @launchdarkly.com serve true
+6. Set default rule to false
 
 
 
