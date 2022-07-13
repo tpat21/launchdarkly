@@ -28,18 +28,18 @@ $ cd launchdarkly
 $ npm install launchdarkly-react-client-sdk
 ```
 
-## Using Feature Flags
+# Using Feature Flags
 
-# clientSideID
+## clientSideID
 Ensure clientSideID within the App.js file matches with your clientSideID within your LaunchDarkly dashboard
 
-# form flag
+## form flag
 1. Create a new feature flag call "form"
 2. Select the option "SDKs using Client-side ID" 
 3. Select Boolean for Flag variations 
 4. Save flag
 
-# prodCode flag
+## prodCode flag
 1. Create a new feature flag call "prodCode"
 2. Select the option "SDKs using Client-side ID" 
 3. Select Boolean for Flag variations 
