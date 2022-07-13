@@ -31,7 +31,10 @@ $ npm install launchdarkly-react-client-sdk
 # Using Feature Flags
 
 ## clientSideID
-Ensure clientSideID within the App.js file matches with your clientSideID within your LaunchDarkly dashboard
+1. Ensure clientSideID within the App.js file matches with your clientSideID within your LaunchDarkly dashboard
+2. To find your clientSideID, click the "command" and "k" keys
+3. Click "Copy SDK key for the current environment"
+4. Click "Client-side ID"
 
 ## form flag
 1. Create a new feature flag call "form"
